@@ -1,5 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-	<title>Welcome to there</title>
-	<a href="javascript:alert(\"ok\");">test</a>
+	<canvas id="mom" style="background:#111"></canvas>
+
+      <script type="text/javascript">
+        window.onload = function(){
+            var canvas = document.getElementById("mom");
+            var context =canvas.getContext("2d");
+            var W = window.innerWidth;
+            var H = window.innerHeight;
+            canvas.width = W;
+            canvas.height = H;
+            var fontSize = 16;
+            var colunms = Math.floor(W /fontSize);
+            var drops = [];
+    for(var i=0;i<colunms;i++){
+                drops.push(0);
+            }
+            var str ="诗梦 诗梦 博客";
+    4:fillText(str,x,y);
+            function draw(){
+                context.fillStyle = "rgba(0,0,0,0.05)";
+                context.fillRect(0,0,W,H);
+                context.font = "700 "+fontSize+"px  微软雅黑";
+                context.fillStyle ="#00cc33";
+    for(var i=0;i<colunms;i++){
+                    var index = Math.floor(Math.random() * str.length);
+                    var x = i*fontSize;
+                    var y = drops[i] *fontSize;
+                    context.fillText(str[index],x,y);
+    if(y >= canvas.height && Math.random() > 0.99){
+                        drops[i] = 0;
+                    }
+                    drops[i]++;
+                }
+            };
+            function randColor(){
+                var r = Math.floor(Math.random() * 256);
+                var g = Math.floor(Math.random() * 256);
+                var b = Math.floor(Math.random() * 256);
+    return "rgb("+r+","+g+","+b+")";
+            }
+            draw();
+            setInterval(draw,30);
+        };
+    </script>
 <html>
