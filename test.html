@@ -1,0 +1,9 @@
+<html>
+<span id="s1">test</span>
+<div id="d1">不会被覆盖的</div>
+<script>
+var obj = document.getElementById('s1');
+obj.innerHTML = '重绘span中的内容';//李岩说的没错，注意大小写，innerHTML而不是InnerHTML
+obj.innerHTML += '追加内容而不覆盖';
+</script>
+</html>
