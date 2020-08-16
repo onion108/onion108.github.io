@@ -1,0 +1,5 @@
+/*I learned CSS just now*/
+a:link {text-decoration:none;color:#ff3232;}
+a:visited {text-decoration:none;color:#000000;}
+a:hover {text-decoration:none;color:#ff0000}
+a:active {text-decoration:none;color:#ff3232}
