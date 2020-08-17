@@ -1,5 +1,5 @@
 /*I learned CSS just now*/
-a:link {text-decoration:none;color:#FFFFFF;background-color:#000000;}
-a:visited {text-decoration:none;color:#FFFFFF;background-color:#000000;}
-a:hover {text-decoration:none;color:#FFFFFF;background-color:#0000FF;}
-a:active {text-decoration:none;color:#FFFFFF;background-color:#000000;}
+a:link {text-decoration:none;color:#000000;background-color:#FFAAAA;}
+a:visited {text-decoration:none;color:#000000;background-color:#FFAAAA;}
+a:hover {text-decoration:none;color:#FFFFFF;background-color:#FF9999;}
+a:active {text-decoration:none;color:#000000;background-color:#FFAAAA;}
