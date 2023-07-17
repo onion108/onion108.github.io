@@ -207,7 +207,7 @@ export const otherI18N = {
         "onion27.question.0": "About you?",
         "onion27.question.1": "What languages you are using?",
         "onion27.question.2": "Spamton-like speak?",
-        "onion27.question.3": "Your friend? 114514",
+        "onion27.question.3": "Your friend?",
         "onion27.question.4": "You TRUE friend?",
         "onion27.question.5": "How are you?",
         "onion27.question.6": "*Hug*",
