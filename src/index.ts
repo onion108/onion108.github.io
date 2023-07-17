@@ -1,13 +1,11 @@
 import { dialogsI18N, otherI18N } from "./resources";
-import { typeWriteOne, startTypewriting, skipText, nextText, writeText } from "./typewriting";
+import { resetTypewriterState, startTypewriting, skipText, nextText } from "./typewriting";
 import { TypewriterStartEvent, TypewriterStartEventArgs } from "./events/TypewriterStartEvent";
+import { VERSION } from "./metadata";
 
 export let experimentFeatures = {
     skippableText: true,
 };
-
-let indexCounter = 0;
-let boringCount = 0;
 
 export let dialogs: string[][] = null;
 
@@ -30,19 +28,16 @@ function registerTriggers() {
                 if (i.getAttribute("data-nc-wolfbirth")) {
                     if (isWolfysNebellBirthday()) {
                         document.querySelector(".typewriter")?.setAttribute("data-content", i.getAttribute("data-nc-wolfbirth")!);
-                        indexCounter = 0;
-                        boringCount = 0;
+                        resetTypewriterState();
                         startTypewriting();
                     } else {
                         document.querySelector(".typewriter")?.setAttribute("data-content", i.getAttribute("data-nc")!);
-                        indexCounter = 0;
-                        boringCount = 0;
+                        resetTypewriterState();
                         startTypewriting();
                     }
                 } else {
                     document.querySelector(".typewriter")?.setAttribute("data-content", i.getAttribute("data-nc")!);
-                    indexCounter = 0;
-                    boringCount = 0;
+                    resetTypewriterState();
                     startTypewriting();
                 }
             }
@@ -134,8 +129,13 @@ function setupResources() {
     }
 }
 
+function updateOtherVisualElements() {
+    document.querySelector("#version_number").innerHTML = VERSION;
+}
+
 window.onload = () => {
     setupResources();
+    updateOtherVisualElements();
     registerTriggers();
     registerOtherEventListeners();
     startTypewriting();

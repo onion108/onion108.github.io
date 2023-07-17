@@ -4,6 +4,11 @@ import { dialogs, translateI18N } from "./index";
 let indexCounter = 0;
 let boringCount = 0;
 
+export function resetTypewriterState() {
+    indexCounter = 0;
+    boringCount = 0;
+}
+
 export function typeWriteOne(el: Element) {
     let a: string = "";
     if (indexCounter < dialogs[Number.parseInt(el.getAttribute("data-content")!)].length) {
