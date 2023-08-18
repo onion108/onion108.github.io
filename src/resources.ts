@@ -1,3 +1,6 @@
+export const HEIGHT = 161;
+export const WEIGHT = 51;
+
 export const dialogsI18N = {
     "en_US": [
         ["* Welcome to \\[27Onion's Website\\]! ", "* Choose an \\[option\\]. "], // 0
@@ -205,6 +208,54 @@ export const dialogsI18N = {
             "* We were classmates in primary school, actually.\\n* But we are not so close during that time. ",
             "* We became close friends in June, 2023. I guess. "
         ],
+        [ // 30
+            "* Oh... \\[CHEESE\\]!!!! \\n* I love 'em. ",
+            "* Imagine a hamburger with full of cheese!! ",
+            "* That will be awesome. ",
+            "* \\[Spaghetti\\] tastes great too. ",
+            "* ...as long as they are not from Papyrus. ",
+        ],
+        [ // 31
+            "* Bitter. ",
+        ],
+        [ // 32
+            "* No if you are not important enough to me. ",
+            "* Only people who are \\[important enough\\] to me can have their questions on this webpage. ",
+            "* For example, \\[Yuhang Hu\\] will be one of those. ",
+        ],
+        [ // 33
+            "* \\{Cut my arm\\}. ",
+            "* ...well I won't do that now. \\n* I may consider talking with Yuhang Hu...?",
+        ],
+        [ // 34
+            "* Je pense, donc je suis. \\n* In English it is \\[I think, therefore I am\\]. ",
+        ],
+        [ // 35
+            "* I'm afraid \\[to lose\\]... \\n* That's really scary. ",
+            "* I've lost one. I don't want to lose more. ",
+            "* Sometimes I may be worry about my friends too much. \\n* I'm so afraid to lose 'em. ",
+        ],
+        [ // 36
+            `* ${HEIGHT}cm for height and ${WEIGHT}kg for weight. `,
+        ],
+        [ // 37
+            "* \\[CHEMISTRY\\]!!!! Without doubt. ",
+            "* Physics is also one of my favorite subjects. ",
+            "* Mathematics... kinds of boring but OK!! It's still interesting sometimes. ",
+        ],
+        [ // 38
+            "* Sweetie! \\n* But, only for those who are close to me. ",
+            "* For other people, calling me sis will be OK. ",
+        ],
+        [ // 39
+            "* I'm bisexual. \\n* That means I may fall in love with anyone who is \\[male or female\\].",
+            "* Kinds of like \\[Lesbian + Heterosexual\\].",
+        ],
+        [ // 40
+            "* I'm recently listening to \\[MARETU\\]'s and \\[PEPOYO\\]'s songs. ",
+            "* \\[Kenshi Yonezu\\]'s songs are also awesome, in my opinion. ",
+            "* I also like the \\[Renai Circulation\\] by Kana Hanazawa. ",
+        ],
     ],
     "zh_CN": [
         ["* 欢迎来到\\[27Onion的网站\\]！", "* 从下面的列表选择一个\\[选项\\]吧。"], // 0
@@ -376,7 +427,7 @@ export const dialogsI18N = {
             "* 毫无疑问地是\\[女孩纸\\]。",
             "* 有问题吗？",
             "* 哦。我知道你想说什么。",
-            "* 啊对对对，我是\\[男跨女\\]。",
+            "* 啊对对对，我是一名\\[跨性别女生\\]。",
             "* 那又怎么滴了嘛！！",
         ],
         [ // 24
@@ -410,6 +461,54 @@ export const dialogsI18N = {
             "* 我们是小学同学。\\n* 不过在小学的时候，我们关系还没这么近。",
             "* 我们大概是六月份变成朋友的吧，我猜。"
         ],
+        [ // 30
+            "* 哦… \\[奶酪\\]！！！ \\n* 我爱死它们了。 ",
+            "* 想象一下，一个满是芝士的奶酪！！！ ",
+            "* 这一定很棒。",
+            "* \\[意大利面\\]也超好吃的好吧！！！！",
+            "* ……只要不是Papyrus做的。",
+        ],
+        [ // 31
+            "* 苦的。",
+        ],
+        [ // 32
+            "* 如果你只是一个陌生人的话就算了。",
+            "* 只有那些\\[非常重要的人\\]才能在这个网页上拥有关于他们的问题。\\n* 当然他们也可以来这里提问题。然后我会加上去。",
+            "* 显然，\\[杭姐\\]就是其中之一。",
+        ],
+        [ // 33
+            "* \\{割手\\}. ",
+            "* ……唔我现在尽量不做这种事了。\\n* 也许我可以去跟杭姐聊聊……？",
+        ],
+        [ // 34
+            "* 我思故我在。",
+        ],
+        [ // 35
+            "* 我害怕\\[失去\\]… \\n* 这真的很吓人。",
+            "* 我已经失去一个了。我不想再失去更多了。",
+            "* 这就是为什么有时候我对我闺蜜担心太多。\\n* 我真的好害怕失去。",
+        ],
+        [ // 36
+            `* ${HEIGHT}厘米身高，${WEIGHT}千克体重。`,
+        ],
+        [ // 37
+            "* 毫无疑问有\\[化学\\]！！！",
+            "* 物理也算一个。",
+            "* 数学……有点无聊，但是还行！！有时候还是相当有趣的小家伙。",
+        ],
+        [ // 38
+            "* 当然是\\[宝贝\\]了！！！！！ \\n* 不过，仅限于那些和我关系亲近的人。",
+            "* 其他人叫\\[姐\\]就行了。（无情.jpg）",
+        ],
+        [ // 39
+            "* 我是双性恋。 \\n* 这意味着我可能会喜欢上\\[男生或女生\\]。",
+            "* 有点类似于\\[女同+异性恋\\]……？的感觉。",
+        ],
+        [ // 40
+            "* 我最近在听\\[MARETU\\]和\\[PEPOYO\\]的音乐。",
+            "* \\[米津玄师\\]的歌也很不错！！超级好听。",
+            "* 我还比较喜欢花泽香菜的\\[恋爱循环\\]。",
+        ],
     ],
 };
 
@@ -438,6 +537,17 @@ export const otherI18N = {
         "onion27.question.20": "You gender?",
         "onion27.question.21": "Your best friend now?",
         "onion27.question.22": "Who is Yuhang Hu? ",
+        "onion27.question.23": "What do you like to eat? ",
+        "onion27.question.24": "How does barium chloride taste like? ",
+        "onion27.question.25": "Can you add a question for me? ",
+        "onion27.question.26": "What will you do when you feel bad? ",
+        "onion27.question.27": "What's your favorite saying? ",
+        "onion27.question.28": "What things are you afraid of? ",
+        "onion27.question.29": "What's your height and weight? ",
+        "onion27.question.30": "What are your favorite subjects? ",
+        "onion27.question.31": "What do you like people to call you? ",
+        "onion27.question.32": "What's your sex orientation? ",
+        "onion27.question.33": "What songs do you listen to? ",
 
         "onion27.operation.next": "Next",
         "onion27.operation.skip": "Skip",
@@ -479,13 +589,24 @@ export const otherI18N = {
         "onion27.question.20": "你的……性别是？",
         "onion27.question.21": "你现在的最好的朋友？",
         "onion27.question.22": "杭姐？那是谁啊？",
+        "onion27.question.23": "你喜欢吃什么？",
+        "onion27.question.24": "氯化钡味道如何？",
+        "onion27.question.25": "你可以为我在上面增加一个问题吗？",
+        "onion27.question.26": "当你情绪糟糕时你会怎么做？",
+        "onion27.question.27": "你最喜欢的名言？",
+        "onion27.question.28": "你最害怕什么？",
+        "onion27.question.29": "你的身高体重？",
+        "onion27.question.30": "你最喜欢什么科目？",
+        "onion27.question.31": "你喜欢人们怎么叫你？",
+        "onion27.question.32": "你的性取向？",
+        "onion27.question.33": "你喜欢听什么歌？",
 
         "onion27.operation.next": "继续",
         "onion27.operation.skip": "跳过",
         "onion27.sections.options": "选项",
         "onion27.sections.navigation": "导航",
 
-        "onion27.special.rip_wolfys": "* 安息。\\[袁蒋梓悦 (2007-2021)\\]。",
+        "onion27.special.rip_wolfys": "* 安息吧，\\[袁蒋梓悦 (2007-2021)\\]。",
 
         "onion27.dialog.thats_all": "* 嘛，这就完了。\\n* 点一下其他\\[选项\\]试试吧。",
         "onion27.dialog.boring50": "* 麻了，你就没有更重要的事情可做吗？",

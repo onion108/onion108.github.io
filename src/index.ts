@@ -13,7 +13,7 @@ export let strings: Record<string, string> = null;
 
 function isWolfysNebellBirthday() {
     let date = new Date();
-    return date.getDate() === 27 && date.getMonth() === 11;
+    return (date.getDate() === 27 && date.getMonth() === 11);
 }
 
 function registerTriggers() {

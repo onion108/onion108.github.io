@@ -27,5 +27,11 @@ module.exports = {
                 exclude: /node_modules/
             }
         ]
-    }
+    },
+    devServer: {
+        static: './dist',
+    },
+    // optimization: {
+    //     runtimeChunk: 'single'
+    // }
 };
