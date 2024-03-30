@@ -1,20 +1,20 @@
-export const HEIGHT = 161;
+export const HEIGHT = 165;
 export const WEIGHT = 51;
 
 export const dialogsI18N = {
     "en_US": [
         ["* Welcome to \\[27Onion's Website\\]! ", "* Choose an \\[option\\]. "], // 0
-        [ // 1
+        [ // NOTE: 1
             "* Oh? About me?",
             "* My name is \\[27Onion\\].",
             "* My Github account is called onion108.\\n* You can search it."
         ],
-        [ // 2
+        [ // NOTE: 2
             "* I'm learning \\[Rust\\] these days.\\n* It's our responsibility to rewrite \\[everything\\] in \\[Rust\\]!!! Ooh-hoo.",
             "* I can also write Golang, C, C++, Java, Kotlin, C# and more.",
             "* You see, the website is written in \\[Typescript\\].",
         ],
-        [ // 3
+        [ // NOTE: 3
             "* H3Y!!!! EVERY!!!!",
             "* I'm [[27Onion G. 27Onion]]!!!!!",
             "* Oh you the [[$4.99 Little Sponge]]!",
@@ -22,11 +22,11 @@ export const dialogsI18N = {
             "* Make you [[BIG]]!! Make me [[BIG]]!!!",
             "* [[Hyperlink Blocked]].",
         ],
-        [ // 4
+        [ // NOTE: 4
             "* Oh! I've got a lot of \\[friends\\].",
             "* Yeah, you can be one, too!!!! I mean.",
         ],
-        [ // 5
+        [ // NOTE: 5
             "* ...",
             "* I \\[had\\] one...",
             "* But... but she...",
@@ -39,15 +39,15 @@ export const dialogsI18N = {
             "* Forget it.",
             "* \\W. \\W. \\W. ",
             "* Don't worry about me! ",
-            "* I still have \\[Yuhang Hu\\]. I haven't lost everything. \\n* Be positive, my friend! ",
+            "* I still have my girl friend. I haven't lost everything. \\n* Be positive, my friend! ",
         ],
-        [ // 6
+        [ // NOTE: 6
             "* [DELETED]",
         ],
-        [ // 7
+        [ // NOTE: 7
             "* Yes, I'm fine! Thanks. ",
         ],
-        [ // 8
+        [ // NOTE: 8
             "* ???",
             "* ?????",
             "* ??????????????????????????",
@@ -55,16 +55,17 @@ export const dialogsI18N = {
             "* the",
             "* fuck",
         ],
-        [ // 9
-            "* \\[Dec 27, 2007\\]. And \\{Mar 5, 2021\\}.",
+        [ // NOTE: 9
+            "* \\[Dec 8, 2006\\], my girlfriend's birthday.",
+            "* Also\\W.\\W.\\W. \\[Dec 27, 2007\\]. And \\{Mar 5, 2021\\}.",
             "* \\[Jan 13\\] as well. ",
         ],
-        [ // 10
+        [ // NOTE: 10
             "* \\[Undertale\\], \\[Deltarune\\] o'course. ",
             "* Oh, and \\[Minecraft\\]. ",
             "* \\[Super Mario Bros\\] looks great, but I can never play to the end.",
         ],
-        [ // 11
+        [ // NOTE: 11
             "* So you're asking my \\[soul\\]? ",
             "* Nothing special. I'm just a monster looks like a human. ",
             "* My soul is half white & half black. ",
@@ -72,33 +73,33 @@ export const dialogsI18N = {
             "* Attention. My soul is an upside-down heart, since I'm not a human at all. ",
             "* I have \\{Determination\\}. ",
         ],
-        [ // 12
+        [ // NOTE: 12
             "* ...?",
             "* Ehh... Nothing. ",
             "* You can a-ask me everythin' in the o-options down he-here! ",
             "* I have no-nothing to hi-hide. "
         ],
-        [ // 13
+        [ // NOTE: 13
             "* We are trying to add this feature. ",
             "* But first I need to read this code from months ago. ",
             "* It seems that I cannot understand it anymore. ",
         ],
-        [ // 14
+        [ // NOTE: 14
             "* Really? \\n* Thank you! ",
             "* If you really like it, I may want to make a \\[framework\\] of it and publish it. ",
             "* The source code of this website is \\[in a mess\\] 'cause I'm not taking it seriously. ",
             "* Well, I've cleaned up using \\[Webpack\\]. So it may looks better now. ",
             "* wwwwwwww",
         ],
-        [ // 15
+        [ // NOTE: 15
             "* We-well, that's ok.",
             "* Everybody have their own favorites, I mean. ",
         ],
-        [ // 16
+        [ // NOTE: 16
             "* Yes, there is. ",
             "* Add \\[?lang=zh_CN\\] after the URL and reload the webpage to see! ",
         ],
-        [ // 17
+        [ // NOTE: 17
             "* I felt lost...",
             "* ...",
             "* DARKNESS...",
@@ -106,18 +107,18 @@ export const dialogsI18N = {
             "* \\{DEATH\\}.",
             "* \\{KILL\\} ME. PLEASE...",
         ],
-        [ // 18
+        [ // NOTE: 18
             "* No. I'm not using any frameworks. ",
             "* It's in 100% \\[Vanilla Typescript\\]. ",
             "* I love the \\[static type system\\]. ",
             "* If you mean the \\[typewriter system\\], I just want to say, it's all by myself. ",
         ],
-        [ // 19
+        [ // NOTE: 19
             "* I've just done some \\[parse\\] works. ",
             "* As you see, the \\[highlighted codes\\] are in the format like this: \\n* \"\\\\\\\\[Hightlighted Text\\\\\\\\]\"",
             "* And I just did a little parse. ",
         ],
-        [ // 20
+        [ // NOTE: 20
             "* (Queen-styled Laugh)",
             "* Oh",
             "* LMAO",
@@ -130,7 +131,7 @@ export const dialogsI18N = {
             "* Well Have Fun",
             "* I'm Gotta Go LMAO",
         ],
-        [ // 21
+        [ // NOTE: 21
             "\\s* hey kid.",
             "\\s* listen. ",
             "\\s* have you ever seen a \\[flowey that can speak\\]?",
@@ -139,7 +140,7 @@ export const dialogsI18N = {
             "\\s* well i'm goin' to sleep.",
             "\\s* good luck, kid. ",
         ],
-        [ // 22
+        [ // NOTE: 22
             "\\pHEY HUMAN!!! IT'S ME!! THE GREAT 27ONION!!",
             "\\pI'VE BROUGHT MY BEST SPAGHETTI FOR YOU!!",
             "\\pTHE SPAGHETTI IS VERY GREAT! IT CAN MAKE YOU-",
@@ -169,7 +170,7 @@ export const dialogsI18N = {
             "* Good Bye My Sweetie LOL",
             "* (Click...) ",
         ],
-        [ // 23
+        [ // NOTE: 23
             "* My gender? ",
             "* I am a \\[girl\\], o'course. ",
             "* Any problems here? ",
@@ -177,99 +178,111 @@ export const dialogsI18N = {
             "* Yes I'm \\[MtF\\]. ",
             "* But it doesn't influence anything! ",
         ],
-        [ // 24
+        [ // NOTE: 24
             "* Yes... ",
             "* That's \\[Wolfys Nebell\\]...",
             "* ... ",
         ],
-        [ // 25
+        [ // NOTE: 25
             "* \\[Today\\]. And \\{Mar 5, 2021\\}.",
         ],
-        [ // 26
+        [ // NOTE: 26
             "* *Hug* *Hug*",
         ],
-        [ // 27
+        [ // NOTE: 27
             "* What? You really want it? ",
             "* Ok, I can add this feature in seconds... I guess... ",
             "* Please wait for a while.\\W.\\W. \\W",
             "* It's done now! ",
             "* Test it. ",
         ],
-        [ // 28
+        [ // NOTE: 28
             "* If you mean the alive one, it's currently, without doubt, \\[Yuhang Hu\\].",
             "* \\[Wolfys Nebell\\] IS important, but...",
             "* Life is still going on, y'know. \\n* Life is still \\[GOING ON\\]...",
             "* Well, \\[Yuhang Hu\\] is now my most-trusted friend.\\n* ...in those who are still alive. ",
         ],
-        [ // 29
+        [ // NOTE: 29
             "* \\[Yuhang Hu\\]? She's my best friend. My most-trusted friend. ",
             "* One day, we talked...",
             "* ... and we became friends! ",
             "* We were classmates in primary school, actually.\\n* But we are not so close during that time. ",
             "* We became close friends in June, 2023. I guess. "
         ],
-        [ // 30
+        [ // NOTE: 30
             "* Oh... \\[CHEESE\\]!!!! \\n* I love 'em. ",
             "* Imagine a hamburger with full of cheese!! ",
             "* That will be awesome. ",
             "* \\[Spaghetti\\] tastes great too. ",
             "* ...as long as they are not from Papyrus. ",
+            "* Oh, wait, and - ",
+            "* The passion fruit sauce!! Mixed with water. It's sooooooo \\[DELICIOUS\\].",
         ],
-        [ // 31
+        [ // NOTE: 31
             "* Bitter. ",
         ],
-        [ // 32
+        [ // NOTE: 32
             "* No if you are not important enough to me. ",
             "* Only people who are \\[important enough\\] to me can have their questions on this webpage. ",
             "* For example, \\[Yuhang Hu\\] will be one of those. ",
         ],
-        [ // 33
+        [ // NOTE: 33
             "* \\{Cut my arm\\}. ",
             "* ...well I won't do that now. \\n* I may consider talking with Yuhang Hu...?",
         ],
-        [ // 34
+        [ // NOTE: 34
             "* Je pense, donc je suis. \\n* In English it is \\[I think, therefore I am\\]. ",
         ],
-        [ // 35
+        [ // NOTE: 35
             "* I'm afraid \\[to lose\\]... \\n* That's really scary. ",
             "* I've lost one. I don't want to lose more. ",
             "* Sometimes I may be worry about my friends too much. \\n* I'm so afraid to lose 'em. ",
         ],
-        [ // 36
+        [ // NOTE: 36
             `* ${HEIGHT}cm for height and ${WEIGHT}kg for weight. `,
         ],
-        [ // 37
+        [ // NOTE: 37
             "* \\[CHEMISTRY\\]!!!! Without doubt. ",
             "* Physics is also one of my favorite subjects. ",
             "* Mathematics... kinds of boring but OK!! It's still interesting sometimes. ",
         ],
-        [ // 38
+        [ // NOTE: 38
             "* Sweetie! \\n* But, only for those who are close to me. ",
             "* For other people, calling me sis will be OK. ",
         ],
-        [ // 39
+        [ // NOTE: 39
             "* I'm bisexual. \\n* That means I may fall in love with anyone who is \\[male or female\\].",
             "* Kinds of like \\[Lesbian + Heterosexual\\].",
         ],
-        [ // 40
+        [ // NOTE: 40
             "* I'm recently listening to \\[MARETU\\]'s and \\[PEPOYO\\]'s songs. ",
             "* \\[Kenshi Yonezu\\]'s songs are also awesome, in my opinion. ",
             "* I also like the \\[Renai Circulation\\] by Kana Hanazawa. ",
         ],
+        [ // NOTE: 41
+            "* Oh... \\[Liuwei He\\] is my beloved one. ",
+            "* I would like to use my \\[whole life\\] to love her.",
+        ],
+        [ // NOTE: 42
+            "* First I want to say that, a \\[friend\\], is totally different from a \\[lover\\].",
+            "* I belong to my lover only. And my lover only belongs to me, too. ",
+            "* I have my best friend, but a lover is a totally different stuff.",
+            "* They're just not in the same dimension. ",
+        ],
     ],
     "zh_CN": [
         ["* 欢迎来到\\[27Onion的网站\\]！", "* 从下面的列表选择一个\\[选项\\]吧。"], // 0
-        [ // 1
+        [ // NOTE: cn1
             "* 啊？关于我啊？",
             "* 我叫\\[27Onion\\]。（不是270nion啊喂！有些人真的很离谱）",
             "* 我的Github账号名字叫做onion108。\\n* 快去fo我！！"
         ],
-        [ // 2
+        [ // NOTE: cn2
             "* 嘛，我最近在学\\[Rust\\]。\\n* RUST，启动！！",
             "* 至于别的语言嘛Golang、C、C++、Java、Kotlin、C#啥的也都行的啊！",
             "* 比如，这个网站主要是用\\[Typescript\\]写的。",
         ],
-        [ // 3
+        [ // NOTE: cn3
             "* 砰友们嚎哇！！！！",
             "* 我是【【27Onion G. 27Onion】】！！！！",
             "* 你这个可怜的【【¥4.99的小海绵】】!",
@@ -277,11 +290,11 @@ export const dialogsI18N = {
             "* 让你变【【大】】！！ 让我变【【大】】！！",
             "* 【【链接已屏蔽】】",
         ],
-        [ // 4
+        [ // NOTE: cn4
             "* 啊哈。我有很多\\[朋友\\]。",
             "* 你也可以成为一个！",
         ],
-        [ // 5
+        [ // NOTE: cn5
             "* ……",
             "* 啊，我\\[有过\\]一个……",
             "* 但……但是她……",
@@ -294,31 +307,32 @@ export const dialogsI18N = {
             "* 忘了它吧。",
             "* \\W. \\W. \\W. ",
             "* 哦。嘿！不用担心我。",
-            "* 我还有\\[杭姐\\]呢。我很好，现在。 \\n* 乐观点，我的朋友！",
+            "* 我还有\\[我的女朋友\\]呢。我很好，现在。 \\n* 乐观点，我的朋友！",
         ],
-        [ // 6
+        [ // NOTE: cn6
             "* [DELETED]",
         ],
-        [ // 7
+        [ // NOTE: cn7
             "* 唔，我很好！谢谢关心。",
         ],
-        [ // 8
+        [ // NOTE: cn8
             "* ？？",
             "* ？？？？？",
             "* ？？？？？？？？？？？？？",
             "* 啊",
             "* 这",
         ],
-        [ // 9
+        [ // NOTE: cn9
+            "* \\[2006年12月6日\\]，我老婆的生日。",
             "* \\[2007年12月27日\\]。哦还有，\\{2021年3月5日\\}。",
             "* \\[当然，还有2008年1月13日\\]。显然我是不会忘记的。",
         ],
-        [ // 10
+        [ // NOTE: cn10
             "* 当然是\\[传说之下\\]还有\\[三角符文\\]了。",
             "* 啊，怎么可以忘了\\[我的世界\\]呢！",
             "* \\[超级马里奥兄弟\\]挺好的。不过像我这种游戏菜鸡就从来没有玩到结局过。",
         ],
-        [ // 11
+        [ // NOTE: cn11
             "* 啊。你说我的\\[灵魂\\]？",
             "* 没什么特别的。我的人设只是看着像人的怪物，所以我的灵魂是和怪物一样的倒过来的爱心。\\n*（如果你不了解传说之下的话可以不用看下去了。）",
             "* 颜色是半黑半白的。",
@@ -326,32 +340,32 @@ export const dialogsI18N = {
             "* 嗯。我的灵魂是倒过来的心形好吧。没有一点人类成分。",
             "* 另外，还是有\\{决心\\}的。",
         ],
-        [ // 12
+        [ // NOTE: cn12
             "* ...?",
             "* 啊。我难道还会有什么藏着你的吗！？",
             "* 问就完了。",
             "* 没啥藏-藏的。"
         ],
-        [ // 13
+        [ // NOTE: cn13
             "* We are trying to add this feature. ",
             "* But first I need to read this code from months ago. ",
             "* It seems that I cannot understand it anymore. ",
         ],
-        [ // 14
+        [ // NOTE: cn14
             "* 真的？",
             "* 你要是喜欢的话，我到时候可以把这玩意做成一个\\[框架\\]然后发布。",
             "* 这玩意本来是一个玩具项目，所以它的源代码简直是\\[一团糟\\]。",
             "* 哦不过嘛，现在我用Webpack稍微整理了一下。现在可能看起来好点了。",
             "* wwwwwwww",
         ],
-        [ // 15
+        [ // NOTE: cn15
             "* 啊……嗯……这也没关系！",
             "* 每个人都有自己的喜好的。",
         ],
-        [ // 16
+        [ // NOTE: cn16
             "* 您瞅瞅！您瞅瞅！诶这不就来了嘛！",
         ],
-        [ // 17
+        [ // NOTE: cn17
             "* I felt lost...",
             "* ...",
             "* DARKNESS...",
@@ -359,18 +373,18 @@ export const dialogsI18N = {
             "* \\{DEATH\\}.",
             "* \\{KILL\\} ME. PLEASE...",
         ],
-        [ // 18
+        [ // NOTE: cn18
             "* 啊？框架啊？不用的。",
             "* 这是100%纯的\\[原版Typescript\\]。",
             "* 啊。爱死\\[静态类型检查\\]了！JavaScript什么妖孽，丢掉丢掉。",
             "* 您要是说这\\[打字机系统\\]啊这可全是我自己写的！咋样～",
         ],
-        [ // 19
+        [ // NOTE: cn19
             "* 嘛？就是做了点\\[文本解析\\]。",
             "* 你看下源代码里这些\\[带格式的文本\\]都是这种阵容的：\\n* \"\\\\\\\\[高亮文本\\\\\\\\]\"", // OH MY BACKSLASHES!!!
             "* 然后就是做了点简单的文本解析。就这样的。",
         ],
-        [ // 20
+        [ // NOTE: cn20
             "* （Queen一般的笑声（请自行脑补））",
             "* 噢",
             "* XSWL",
@@ -383,7 +397,7 @@ export const dialogsI18N = {
             "* 哦 请 继续 欢乐",
             "* 坐和放宽",
         ],
-        [ // 21
+        [ // NOTE: cn21
             "\\s* 嘿，孩子。",
             "\\s* 听着。",
             "\\s* 你是否遇到过\\[一朵会说话的花\\]？",
@@ -392,7 +406,7 @@ export const dialogsI18N = {
             "\\s* 我要睡了。",
             "\\s* 祝你好运。",
         ],
-        [ // 22
+        [ // NOTE: cn22
             "\\p哦，嘿！！人类！！！！这是我，伟大的27ONION！！",
             "\\p我已为你带来了世上最高级的，我亲手制作的，意大利面！！！捏嘿嘿！！！",
             "\\p伟大的意大利面！！！它能使你-",
@@ -422,7 +436,7 @@ export const dialogsI18N = {
             "* 再见了 我的 甜心 XSWL",
             "* （滴……）",
         ],
-        [ // 23
+        [ // NOTE: cn23
             "* 我的性别？",
             "* 毫无疑问地是\\[女孩纸\\]。",
             "* 有问题吗？",
@@ -430,84 +444,96 @@ export const dialogsI18N = {
             "* 啊对对对，我是一名\\[跨性别女生\\]。",
             "* 那又怎么滴了嘛！！",
         ],
-        [ // 24
+        [ // NOTE: cn24
             "* 是的……",
             "* \\[袁蒋梓悦\\]…",
             "* … ",
         ],
-        [ // 25
+        [ // NOTE: cn25
             "* \\[今天\\]。还有\\{2021年3月5日\\}。",
         ],
-        [ // 26
+        [ // NOTE: cn26
             "* 抱抱……",
         ],
-        [ // 27
+        [ // NOTE: cn27
             "* What? You really want it? ",
             "* Ok, I can add this feature in seconds... I guess... ",
             "* Please wait for a while.\\W.\\W. \\W",
             "* It's done now! ",
             "* Test it. ",
         ],
-        [ // 28
+        [ // NOTE: cn28
             "* 如果你说活着的那位，毫无疑问是\\[杭姐\\]啦！！",
             "* \\[袁蒋梓悦\\]仍然有着不可取代的地位。不过……",
             "* 生活还是要继续的。你懂的。\\n* 生活还是要\\[继续\\]的……",
             "* 总而言之。\\[杭姐\\]是我现在最信任的朋友。\\n* ……至少在活着的朋友们中。",
         ],
-        [ // 29
+        [ // NOTE: cn29
             "* \\[杭姐\\]？ 哦，她叫\\[胡渝杭\\]。她是我好闺蜜。我最信任的朋友。",
             "* 有一天，我们说了说话……",
             "* ……然后我们就成为了朋友！",
             "* 我们是小学同学。\\n* 不过在小学的时候，我们关系还没这么近。",
             "* 我们大概是六月份变成朋友的吧，我猜。"
         ],
-        [ // 30
+        [ // NOTE: cn30
             "* 哦… \\[奶酪\\]！！！ \\n* 我爱死它们了。 ",
             "* 想象一下，一个满是芝士的奶酪！！！ ",
             "* 这一定很棒。",
             "* \\[意大利面\\]也超好吃的好吧！！！！",
             "* ……只要不是Papyrus做的。",
+            "* 哦对了，那啥——",
+            "* 百香果酱！！！泡在水里\\[超！级！好！喝！\\]！！",
         ],
-        [ // 31
+        [ // NOTE: cn31
             "* 苦的。",
         ],
-        [ // 32
+        [ // NOTE: cn32
             "* 如果你只是一个陌生人的话就算了。",
             "* 只有那些\\[非常重要的人\\]才能在这个网页上拥有关于他们的问题。\\n* 当然他们也可以来这里提问题。然后我会加上去。",
             "* 显然，\\[杭姐\\]就是其中之一。",
         ],
-        [ // 33
+        [ // NOTE: cn33
             "* \\{割手\\}. ",
             "* ……唔我现在尽量不做这种事了。\\n* 也许我可以去跟杭姐聊聊……？",
         ],
-        [ // 34
+        [ // NOTE: cn34
             "* 我思故我在。",
         ],
-        [ // 35
+        [ // NOTE: cn35
             "* 我害怕\\[失去\\]… \\n* 这真的很吓人。",
             "* 我已经失去一个了。我不想再失去更多了。",
             "* 这就是为什么有时候我对我闺蜜担心太多。\\n* 我真的好害怕失去。",
         ],
-        [ // 36
+        [ // NOTE: cn36
             `* ${HEIGHT}厘米身高，${WEIGHT}千克体重。`,
         ],
-        [ // 37
+        [ // NOTE: cn37
             "* 毫无疑问有\\[化学\\]！！！",
             "* 物理也算一个。",
             "* 数学……有点无聊，但是还行！！有时候还是相当有趣的小家伙。",
         ],
-        [ // 38
+        [ // NOTE: cn38
             "* 当然是\\[宝贝\\]了！！！！！ \\n* 不过，仅限于那些和我关系亲近的人。",
             "* 其他人叫\\[姐\\]就行了。（无情.jpg）",
         ],
-        [ // 39
+        [ // NOTE: cn39
             "* 我是双性恋。 \\n* 这意味着我可能会喜欢上\\[男生或女生\\]。",
             "* 有点类似于\\[女同+异性恋\\]……？的感觉。",
         ],
-        [ // 40
+        [ // NOTE: cn40
             "* 我最近在听\\[MARETU\\]和\\[PEPOYO\\]的音乐。",
             "* \\[米津玄师\\]的歌也很不错！！超级好听。",
             "* 我还比较喜欢花泽香菜的\\[恋爱循环\\]。",
+        ],
+        [ // NOTE: cn41
+            "* 我深爱着\\[孤独的阎猫\\]。",
+            "* 我想陪着她\\[一辈子\\]哦……"
+        ],
+        [ // NOTE: cn42
+            "* 首先我要说……\\[恋人\\]和\\[朋友\\]完完全全就是两码事。",
+            "* 我属于我的爱人。我爱人也只能是我的。",
+            "* 我当然有最好的朋友，但是爱人，这完全不是一个事情。",
+            "* 它们的比较不在一个维度上。",
         ],
     ],
 };
@@ -548,6 +574,8 @@ export const otherI18N = {
         "onion27.question.31": "What do you like people to call you? ",
         "onion27.question.32": "What's your sex orientation? ",
         "onion27.question.33": "What songs do you listen to? ",
+        "onion27.question.34": "Who is your girlfriend? ",
+        "onion27.question.35": "What's the difference between friends and lovers? ",
 
         "onion27.operation.next": "Next",
         "onion27.operation.skip": "Skip",
@@ -600,6 +628,8 @@ export const otherI18N = {
         "onion27.question.31": "你喜欢人们怎么叫你？",
         "onion27.question.32": "你的性取向？",
         "onion27.question.33": "你喜欢听什么歌？",
+        "onion27.question.34": "你女朋友是谁呀？",
+        "onion27.question.35": "恋人和朋友有什么区别？",
 
         "onion27.operation.next": "继续",
         "onion27.operation.skip": "跳过",
