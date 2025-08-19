@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Liberation Serif";
+  font-weight: normal;
+  src: url("fonts/LiberationSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Liberation Serif";
+  font-weight: bold;
+  src: url("fonts/LiberationSerif-Bold.ttf");
+}
+
+html {
+    background: #181818;
+    color: #E8E8E8;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: "Liberation Serif", serif;
+    font-size: 24px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+a[href] {
+    color: #90D6FF;
+    border: none;
+    text-decoration: none;
+    transition: border 0.25s ease-in-out,
+                background-color 0.25s ease-in-out;
+}
+
+a[href]:hover {
+    color: #90D6FF;
+    border-bottom: #90D6FF solid 2px;
+    background-color: #333333;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+.female-gender {
+    color: #ffb6c1;
+}
+
+@media screen and (min-width: 750px) {
+    body {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 12px;
+    }
+}
+
