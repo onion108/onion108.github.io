@@ -1,4 +1,10 @@
 @font-face {
+  font-family: "Liberation Mono";
+  font-weight: normal;
+  src: url("fonts/LiberationMono-Regular.ttf");
+}
+
+@font-face {
   font-family: "Liberation Serif";
   font-weight: normal;
   src: url("fonts/LiberationSerif-Regular.ttf");

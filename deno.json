@@ -1,0 +1,12 @@
+{
+  "unstable": ["sloppy-imports"],
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react-jsx"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["no-sloppy-imports", "no-explicit-any", "ban-types", "no-unused-vars", "no-window", "no-window-prefix"]
+    }
+  }
+}
