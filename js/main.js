@@ -1,6 +1,6 @@
 import { KEY_SEQUENCE_SIZE } from "./constants.js";
 import { EFFECT_TABLE } from "./effects.js";
-import { keycheck_onion27 } from "./keycheck.js";
+import KEYCHECK_TABLE from "./keycheck.js";
 import pageData from "./page-data.js";
 
 function update() {
@@ -23,11 +23,16 @@ function update() {
 }
 
 function keycheck() {
-    keycheck_onion27();
+    for (const keycheck of KEYCHECK_TABLE) {
+        keycheck();
+    }
 }
 
 window.addEventListener("load", () => {
     pageData.loaded = true;
+    document.querySelector("#output").addEventListener('click', () => {
+        document.querySelector("#output").innerHTML = "";
+    });
     setInterval(update, 16);
 });
 

@@ -102,6 +102,10 @@ ul > li::before {
     margin-bottom: 0.1em;
 }
 
+#output {
+    user-select: none;
+}
+
 @media screen and (min-width: 750px) {
     body {
         width: 60%;
