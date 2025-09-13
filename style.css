@@ -1,3 +1,5 @@
+@import "fonts/Charis/Charis-webfont.css"
+
 @font-face {
   font-family: "Liberation Mono";
   font-weight: normal;
@@ -16,13 +18,19 @@
   src: url("fonts/LiberationSerif-Bold.ttf");
 }
 
+@font-face {
+  font-family: "Hiragino Mincho Pro";
+  font-weight: bold;
+  src: url("fonts/Hiragino-Mincho-Pro.otf");
+}
+
 html {
     background: #181818;
     color: #E8E8E8;
     width: 100vw;
     display: flex;
     justify-content: center;
-    font-family: "Liberation Serif", serif;
+    font-family: "Liberation Serif", "Hiragino Mincho Pro", serif;
     font-size: 24px;
 }
 
@@ -84,6 +92,14 @@ img {
 
 ul {
     padding-left: 0;
+}
+
+.ipa {
+    font-family: CharisW;
+}
+
+.optional {
+    color: #a8a8a8;
 }
 
 ul > li {
