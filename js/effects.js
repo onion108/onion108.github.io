@@ -1,3 +1,4 @@
+import { benzyl_titanium_truth } from "./mod.js";
 import { randomString } from "./util.js";
 
 export const EFFECT_TABLE = {
@@ -26,5 +27,18 @@ export const EFFECT_TABLE = {
                 node.removeAttribute("style")
             }
         },
-    }
+    },
+    "bt-truth": {
+        /**
+         * @param {HTMLElement} node
+         */
+        start(node) {
+            const truth_level = localStorage.getItem("benzyl_titanium_truth");
+            if (truth_level === "1") {
+                benzyl_titanium_truth();
+            } else if (truth_level === "2") {
+                document.querySelector("#benzyl-li").setAttribute("style", "display: none;");
+            }
+        },
+    },
 };

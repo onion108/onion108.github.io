@@ -1,4 +1,5 @@
 import pageData from "./page-data.js";
+import { benzyl_titanium_truth } from "./mod.js";
 
 function find_seq(keySeq) {
     if (pageData.keySequence.length < keySeq.length) return;
@@ -20,7 +21,8 @@ function keycheck_onion27() {
 function keycheck_benzyl_titanium() {
     const name = ['b', 'e', 'n', 'z', 'y', 'l'];
     if (find_seq(name)) {
-        document.querySelector("#benzyl-titanium").innerText = "2enzyl 7itanium";
+        const el = document.querySelector("#benzyl-titanium");
+        if (el) el.innerText = "2enzyl 7itanium";
     }
 }
 
@@ -67,9 +69,23 @@ function keycheck_x11() {
     }
 }
 
+function keycheck_benzyl_titanium_truth() {
+    if (find_seq(['b', 'e', 'n','z', 'y', 'l', 't', 'i', 't', 'a', 'n', 'i', 'u', 'm', 't', 'r', 'u', 't', 'h'])) {
+        const truth_level = localStorage.getItem("benzyl_titanium_truth");
+        if (truth_level === null) {
+            benzyl_titanium_truth();
+            localStorage.setItem("benzyl_titanium_truth", "1");
+        } else if (truth_level === "1") {
+            document.querySelector("#benzyl-li").setAttribute("style", "display: none;");
+            localStorage.setItem("benzyl_titanium_truth", "2");
+        }
+    }
+}
+
 export default [
     keycheck_onion27,
     keycheck_benzyl_titanium,
+    keycheck_benzyl_titanium_truth,
     keycheck_konami_seq,
     keycheck_reload,
     keycheck_saturday,
