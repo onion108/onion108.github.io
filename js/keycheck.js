@@ -38,7 +38,13 @@ function keycheck_saturday() {
 
 function keycheck_saturday_full() {
     if (find_seq(['Shift', 'S', 'a', 't', 'u', 'r', 'd', 'a', 'y', ' ', 'Shift', 'T', 'a', 's', 'o', 'g', 'a', 'r', 'e'])) {
-        document.querySelector("#sat").removeAttribute("style");
+        if (localStorage.getItem("tvo_state") !== "DUSKBREAKER_STARTUP") {
+            document.querySelector("#sat").removeAttribute("style");
+            localStorage.setItem("tvo_state", "DUSKBREAKER_STARTUP");
+        } else {
+            document.querySelector("#sat").setAttribute("style", "display: none;");
+            localStorage.removeItem("tvo_state");
+        }
     }
 }
 

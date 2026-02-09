@@ -17,4 +17,14 @@ export const EFFECT_TABLE = {
             node.innerText = randomString(original.length);
         }
     },
+    "load-tvo": {
+        /**
+         * @param {HTMLElement} node
+         */
+        start(node) {
+            if (localStorage.getItem("tvo_state") === "DUSKBREAKER_STARTUP") {
+                node.removeAttribute("style")
+            }
+        },
+    }
 };
