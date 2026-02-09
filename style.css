@@ -1,32 +1,32 @@
 @import "fonts/Charis/Charis-webfont.css";
 
 @font-face {
-  font-family: "Liberation Mono";
-  font-weight: normal;
-  src: url("fonts/LiberationMono-Regular.ttf");
+    font-family: "Liberation Mono";
+    font-weight: normal;
+    src: url("fonts/LiberationMono-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Liberation Serif";
-  font-weight: normal;
-  src: url("fonts/LiberationSerif-Regular.ttf");
+    font-family: "Liberation Serif";
+    font-weight: normal;
+    src: url("fonts/LiberationSerif-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Liberation Serif";
-  font-weight: bold;
-  src: url("fonts/LiberationSerif-Bold.ttf");
+    font-family: "Liberation Serif";
+    font-weight: bold;
+    src: url("fonts/LiberationSerif-Bold.ttf");
 }
 
 @font-face {
-  font-family: "Hiragino Mincho Pro";
-  font-weight: bold;
-  src: url("fonts/Hiragino-Mincho-Pro.otf");
+    font-family: "Hiragino Mincho Pro";
+    font-weight: bold;
+    src: url("fonts/Hiragino-Mincho-Pro.otf");
 }
 
 html {
     background: #181818;
-    color: #E8E8E8;
+    color: #e8e8e8;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -40,16 +40,15 @@ h1, h2 {
 }
 
 a[href] {
-    color: #90D6FF;
+    color: #90d6ff;
     border: none;
     text-decoration: none;
-    transition: border 0.25s ease-in-out,
-                background-color 0.25s ease-in-out;
+    transition: border 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
 a[href]:hover {
-    color: #90D6FF;
-    border-bottom: #90D6FF solid 2px;
+    color: #90d6ff;
+    border-bottom: #90d6ff solid 2px;
     background-color: #333333;
 }
 
@@ -109,7 +108,7 @@ ul > li {
 }
 
 ul > li::before {
-    content: '';
+    content: "";
     width: 0.4em;
     height: 0.4em;
     background-color: #ffb6c1;
@@ -132,6 +131,14 @@ ul > li::before {
 
 #sat:hover {
     opacity: 30%;
+}
+
+#tips {
+    background-color: #575200;
+    padding: 6.7px;
+    border-width: 5px;
+    border-style: none none none solid;
+    border-color: #8f8800;
 }
 
 @media screen and (min-width: 750px) {
@@ -157,4 +164,3 @@ ul > li::before {
         font-size: 12px;
     }
 }
-

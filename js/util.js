@@ -1,10 +1,11 @@
 export function randomInt(l, r) {
-    return Math.round(Math.random() * 114514) % (r-l) + l
+    return Math.round(Math.random() * 114514) % (r - l) + l;
 }
 
 export function randomString(length, pool) {
-    let POOL ="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-={}[]\\|;:\"',.<>/?"
-    if (pool !== undefined && typeof(pool) === "string") {
+    let POOL =
+        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-={}[]\\|;:\"',.<>/?";
+    if (pool !== undefined && typeof pool === "string") {
         POOL = pool;
     }
 
@@ -14,5 +15,3 @@ export function randomString(length, pool) {
     }
     return result;
 }
-
-

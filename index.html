@@ -1,95 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>27Onion's Homepage</title>
-    <script src="./js/main.js" type="module"></script>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="manifest" href="./site.webmanifest">
-  </head>
-  <body>
-    <main>
-      <h1><span data-name>27Onion</span>'s Homepage</h1>  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>27Onion's Homepage</title>
+        <script src="./js/main.js" type="module"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        <link rel="manifest" href="./site.webmanifest">
+    </head>
+    <body>
+        <main>
+            <h1><span data-name>27Onion</span>'s Homepage</h1>
 
-      <div id="output"></div>
+            <div id="tips" data-effect="tips" style="display: none">Tips:</div>
 
-      <h2> ~ About me ~ </h2>
-      <p>
-        Pronouns: <span class="female-gender">She/Her</span> <br>
-        Languages Speaking: <span class="fluent">Chinese</span>, <span class="also-fluent">English</span>, <span class="not-that-fluent">Japanese</span>, <span class="not-fluent">French</span>, <span class="not-fluent">Spanish</span>, <span class="just-start-learning">Esperanto</span>  (the lighter, the more fluent; Underline indicates being able to do general communication)<br>
-        Interests: Programming, Music, Studying Languages <br>
-        Likes: Linux, Modern Terminal Emulators, Fancy (or not) CLI/TUIs, Cheese<span id="like-wayland" style="display: none;">, Wayland</span> <br>
-        Hates: Windows<span id="hate-x11" style="display: none;">, X11</span> <br>
-        Favorite Games: <a href="https://deltarune.com">DELTARUNE</a>, <a href="https://maimai.sega.jp">maimai DX</a>, <a href="https://chunithm.sega.jp">CHUNITHM</a>, <a href="https://arcaea.lowiro.com/">Arcaea</a><span id="fav-game-vs" style="display: none;">, <a href="https://store.steampowered.com/app/2093940/vividstasis/">vivid/stasis</a></span> <br>
-        Programming Language Most Used: Rust <br>
-      </p>
+            <div id="output"></div>
 
-      <h2> ~ Useful Links ~ </h2>
-      <p>
-        <ul>
-          <li><a href="https://www.github.com/onion108">GitHub</a>: My Github account</li>
-          <li><a href="https://www.codeberg.org/onion27">CodeBerg</a>: My CodeBerg account</li>
-          <li><a href="https://onion27.bsky.social">BlueSky</a>: My BlueSky account</li>
-          <li><a href="https://www.youtube.com/@27onionnebell40">YouTube</a>: My (boring) YouTube channel</li>
-          <li><a href="https://discord.gg/6tnYPF7C4E">Discord</a>: My Little Personal Discord Server</li>
-          <li id="benzyl-li" data-effect="bt-truth"><a href="https://biantai.pages.dev/" id="benzyl-titanium">Benzyl titanium</a>: MY [[FRIEND]]!?</li>
-        </ul>
-      </p>
+            <h2>~ About me ~</h2>
+            <p>
+                Pronouns: <span class="female-gender">She/Her</span> <br>
+                Languages Speaking: <span class="fluent">Chinese</span>, <span
+                    class="also-fluent"
+                >English</span>, <span class="not-that-fluent">Japanese</span>,
+                <span class="not-fluent">French</span>, <span class="not-fluent"
+                >Spanish</span>, <span class="just-start-learning"
+                >Esperanto</span> (the lighter, the more fluent; Underline
+                indicates being able to do general communication)<br>
+                Interests: Programming, Music, Studying Languages <br>
+                Likes: Linux, Modern Terminal Emulators, Fancy (or not)
+                CLI/TUIs, Cheese<span id="like-wayland" style="display: none"
+                >, Wayland</span> <br>
+                Hates: Windows<span id="hate-x11" style="display: none"
+                >, X11</span> <br>
+                Favorite Games: <a href="https://deltarune.com">DELTARUNE</a>,
+                <a href="https://maimai.sega.jp">maimai DX</a>, <a
+                    href="https://chunithm.sega.jp"
+                >CHUNITHM</a>, <a href="https://arcaea.lowiro.com/"
+                >Arcaea</a><span id="fav-game-vs" style="display: none">, <a
+                        href="https://store.steampowered.com/app/2093940/vividstasis/"
+                    >vivid/stasis</a></span> <br>
+                Programming Language Most Used: Rust <br>
+            </p>
 
-      <h2> ~ FAQ ~ </h2>
-      <h3>How to pronounce your name? </h3>
-      <p>
-        I have multiple versions for different languages.
-        <ul>
-          <li>English: <span class="ipa">[ˌtw̥ɛ̃ˈnɛvn.ʌn.jən]</span></li>
-          <li>French: Deux-sept O<span class="optional">i</span>gnon</li>
-          <li>Japanese: ニナナオニオン</li>
-          <li>Chinese: èr qī yáng cōng</li>
-        </ul>
+            <h2>~ Useful Links ~</h2>
+            <p>
+                <ul>
+                    <li>
+                        <a href="https://www.github.com/onion108">GitHub</a>: My
+                        Github account
+                    </li>
+                    <li>
+                        <a href="https://www.codeberg.org/onion27">CodeBerg</a>:
+                        My CodeBerg account
+                    </li>
+                    <li>
+                        <a href="https://onion27.bsky.social">BlueSky</a>: My
+                        BlueSky account
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@27onionnebell40"
+                        >YouTube</a>: My (boring) YouTube channel
+                    </li>
+                    <li>
+                        <a href="https://discord.gg/6tnYPF7C4E">Discord</a>: My
+                        Little Personal Discord Server
+                    </li>
+                    <li id="benzyl-li" data-effect="bt-truth">
+                        <a
+                            href="https://biantai.pages.dev/"
+                            id="benzyl-titanium"
+                        >Benzyl titanium</a>: MY [[FRIEND]]!?
+                    </li>
+                </ul>
+            </p>
 
-        IPA is used for languages whose orthography is too bad.
-      </p>
-      <h3>What operating system do you mainly use? </h3>
-      <p>
-        <a href="https://archlinux.org">Arch Linux</a>.
-      </p>
-      <h3>What editor do you mainly use? </h3>
-      <p>
-        <a href="https://neovim.io">Neovim</a>.
-      </p>
-      <h3>What programming language do you mainly use? </h3>
-      <p>
-        It depends. I use JavaScript and Lisp for automation and simple scripts, C# for Godot, C++ for entertaining myself, and perhaps anything else in Rust.
-      </p>
+            <h2>~ FAQ ~</h2>
+            <p data-effect="tips-hint" style="display: none;">Do you know that you can enable random tips by typing "tips" on the webpage? </p>
+            <h3>How to pronounce your name?</h3>
+            <p>
+                I have multiple versions for different languages.
+                <ul>
+                    <li>
+                        English: <span class="ipa">[ˌtw̥ɛ̃ˈnɛvn.ʌn.jən]</span>
+                    </li>
+                    <li>
+                        French: Deux-sept O<span class="optional">i</span>gnon
+                    </li>
+                    <li>Japanese: ニナナオニオン</li>
+                    <li>Chinese: èr qī yáng cōng</li>
+                </ul>
 
-      <h3>What's your work? </h3>
-      <p>
-        I don't go to school, nor do I work.
-      </p>
+                IPA is used for languages whose orthography is too bad.
+            </p>
+            <h3>What operating system do you mainly use?</h3>
+            <p>
+                <a href="https://archlinux.org">Arch Linux</a>.
+            </p>
+            <h3>What editor do you mainly use?</h3>
+            <p>
+                <a href="https://neovim.io">Neovim</a>.
+            </p>
+            <h3>What programming language do you mainly use?</h3>
+            <p>
+                It depends. I use JavaScript and Lisp for automation and simple
+                scripts, C# for Godot, C++ for entertaining myself, and perhaps
+                anything else in Rust.
+            </p>
 
-      <h3>Why don't you work? </h3>
-      <p>
-        I have several mental disorders, and also have a serious problem that makes me hard to function correctly in the society - though theoretically it's not a disorder - called <span data-effect="censored">censoredthi</span>.
-      </p>
+            <h3>What's your work?</h3>
+            <p>
+                I don't go to school, nor do I work.
+            </p>
 
-      <h2> ~ About My Avatar ~ </h2>
-      <p>
-        <image src="img/akiyama_mizuki_looking_up_dark_bg.jpg"></image>
-        It's <a href="https://projectsekai.fandom.com/wiki/Akiyama_Mizuki">Akiyama Mizuki</a>.
-      </p>
+            <h3>Why don't you work?</h3>
+            <p>
+                I have several mental disorders, and also have a serious problem
+                that makes me hard to function correctly in the society - though
+                theoretically it's not a disorder - called <span
+                    data-effect="censored"
+                >censoredthi</span>.
+            </p>
 
-      <h2 style="display: none;" data-sat> ~ Saturday ~ </h2>
-      <p style="display: none;" data-sat>
-        <image src="img/sat2_joy_1_0.png"></image>
-        Saturday!
-      </p>
-    </main>
+            <h2>~ About My Avatar ~</h2>
+            <p>
+                <image src="img/akiyama_mizuki_looking_up_dark_bg.jpg"></image>
+                It's <a
+                    href="https://projectsekai.fandom.com/wiki/Akiyama_Mizuki"
+                >Akiyama Mizuki</a>.
+            </p>
 
-    <div id="sat" style="display: none;" data-effect="load-tvo">
-      <image src="img/sat2_joy_1_0.png"></image>
-    </div>
-  </body>
+            <h2 style="display: none" data-sat>~ Saturday ~</h2>
+            <p style="display: none" data-sat>
+                <image src="img/sat2_joy_1_0.png"></image>
+                Saturday!
+            </p>
+        </main>
+
+        <div id="sat" style="display: none" data-effect="load-tvo">
+            <image src="img/sat2_joy_1_0.png"></image>
+        </div>
+    </body>
 </html>
