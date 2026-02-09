@@ -30,6 +30,24 @@ function keycheck_konami_seq() {
     }
 }
 
+function keycheck_saturday() {
+    if (find_seq(['s', 'a', 't', 'u', 'r', 'd', 'a', 'y'])) {
+        document.querySelectorAll("[data-sat]").forEach(x => x.removeAttribute("style"));
+    }
+}
+
+function keycheck_saturday_full() {
+    if (find_seq(['Shift', 'S', 'a', 't', 'u', 'r', 'd', 'a', 'y', ' ', 'Shift', 'T', 'a', 's', 'o', 'g', 'a', 'r', 'e'])) {
+        document.querySelector("#sat").removeAttribute("style");
+    }
+}
+
+function keycheck_vivid_stasis() {
+    if (find_seq(['v', 'i', 'v', 'i', 'd', '/', 's', 't', 'a', 's', 'i', 's'])) {
+        document.querySelector("#fav-game-vs").removeAttribute("style");
+    }
+}
+
 function keycheck_reload() {
     if (find_seq(['p', 'a', 'r', 'u', 'Enter']) || find_seq(['p', 'a', 'r', 'u', ' ', '-', 'Shift', 'S', 'y', 'u', 'Enter'])) {
         location.reload(true);
@@ -41,5 +59,8 @@ export default [
     keycheck_benzyl_titanium,
     keycheck_konami_seq,
     keycheck_reload,
+    keycheck_saturday,
+    keycheck_saturday_full,
+    keycheck_vivid_stasis,
 ];
 

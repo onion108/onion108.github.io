@@ -1,4 +1,4 @@
-import { KEY_SEQUENCE_SIZE } from "./constants.js";
+import { KEY_SEQUENCE_SIZE, KEY_PREVENTED } from "./constants.js";
 import { EFFECT_TABLE } from "./effects.js";
 import KEYCHECK_TABLE from "./keycheck.js";
 import pageData from "./page-data.js";
@@ -42,5 +42,10 @@ window.addEventListener("keydown", (e) => {
         pageData.keySequence.shift();
     }
     keycheck();
+
+    if (KEY_PREVENTED.findIndex(x => x == e.key) != -1) {
+        e.stopPropagation();
+        e.preventDefault();
+    }
 });
 

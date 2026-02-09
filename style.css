@@ -122,6 +122,18 @@ ul > li::before {
     user-select: none;
 }
 
+#sat {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 350px;
+    transition: opacity 0.25s ease-in-out;
+}
+
+#sat:hover {
+    opacity: 30%;
+}
+
 @media screen and (min-width: 750px) {
     body {
         width: 60%;
