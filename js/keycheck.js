@@ -60,6 +60,13 @@ function keycheck_reload() {
     }
 }
 
+function keycheck_x11() {
+    if (find_seq(['x', '1', '1'])) {
+        document.querySelector('#hate-x11').removeAttribute("style");
+        document.querySelector('#like-wayland').removeAttribute("style");
+    }
+}
+
 export default [
     keycheck_onion27,
     keycheck_benzyl_titanium,
@@ -68,5 +75,6 @@ export default [
     keycheck_saturday,
     keycheck_saturday_full,
     keycheck_vivid_stasis,
+    keycheck_x11,
 ];
 
