@@ -110,6 +110,7 @@ export const TIPS = [
     "Why am I writing these tips?",
     "*brushing hair*",
     "Hyprland",
+    "Please refer to transgender people with correct pronouns.",
     "27 was my student number in the primary school, and Onion is my nickname given by a friend.",
     "Transgender rights matters.",
     "Please respect to everyone's gender identity, and use the correct pronoun they claim. Use the gender neutral expression if you are not sure.",
