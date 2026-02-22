@@ -61,9 +61,12 @@ export const EFFECT_TABLE = {
          * @param {HTMLElement} node
          */
         start(node) {
-            if (localStorage.getItem("tips_triggered") === null && randomInt(0, 200) === 91) {
+            if (
+                localStorage.getItem("tips_triggered") === null &&
+                randomInt(0, 200) === 91
+            ) {
                 node.removeAttribute("style");
             }
-        }
+        },
     },
 };

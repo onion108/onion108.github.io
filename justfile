@@ -1,0 +1,5 @@
+server:
+    python3 -m http.server
+
+fmt:
+    deno fmt
