@@ -12,9 +12,12 @@ window.addEventListener("load", () => {
                     t = 1.0;
                     clearInterval(handle);
                 }
-                document.documentElement.style.setProperty("--animation-progress", t);
+                document.documentElement.style.setProperty(
+                    "--animation-progress",
+                    t,
+                );
                 console.log(t);
             }
         }, 8);
     }
-})
+});
