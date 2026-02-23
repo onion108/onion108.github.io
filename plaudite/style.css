@@ -1,0 +1,37 @@
+.center {
+    place-items: center;
+}
+
+:root {
+    --animation-progress: 0.0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url(/img/sp_satdoor_1.png);
+    background-size: cover;
+    backdrop-filter: brightness(0%);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    background: rgba(24, 24, 24, calc(1.0 - var(--animation-progress)));
+}
+h1 {
+    font-size: 5em;
+    color: rgb(
+        round(calc(232 * (1.0 - var(--animation-progress))))
+        round(calc(232 * (1.0 - var(--animation-progress))))
+        round(calc(232 * (1.0 - var(--animation-progress))))
+    );
+}

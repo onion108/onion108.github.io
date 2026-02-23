@@ -30,6 +30,13 @@ function keycheck_benzyl_titanium() {
     }
 }
 
+function keycheck_mbti() {
+    if (find_seq(["m", "b", "t", "i"])) {
+        const el = document.querySelector("#mbti");
+        if (el) el.removeAttribute("style");
+    }
+}
+
 function keycheck_konami_seq() {
     if (
         find_seq([
@@ -147,6 +154,13 @@ function keycheck_tips() {
     }
 }
 
+function keycheck_nvim_config() {
+    if (find_seq(["n", "v", "i", "m", "c", "o", "n", "f", "i", "g"])) {
+        const el = document.querySelector("#nvim-config");
+        if (el) el.removeAttribute("style");
+    }
+}
+
 function keycheck_benzyl_titanium_truth() {
     if (
         find_seq([
@@ -185,6 +199,12 @@ function keycheck_benzyl_titanium_truth() {
     }
 }
 
+function keycheck_plaudite() {
+    if (find_seq(["g", "o", "o", "d", "n", "i", "g", "h", "t"])) {
+        window.location.href = "/plaudite";
+    }
+}
+
 export default [
     keycheck_onion27,
     keycheck_benzyl_titanium,
@@ -196,4 +216,7 @@ export default [
     keycheck_vivid_stasis,
     keycheck_x11,
     keycheck_tips,
+    keycheck_mbti,
+    keycheck_nvim_config,
+    keycheck_plaudite,
 ];
