@@ -205,6 +205,12 @@ function keycheck_plaudite() {
     }
 }
 
+function keycheck_chenpi11() {
+    if (find_seq(["Shift", "C", "h", "e", "n", "Shift", "P", "i", "1", "1"])) {
+        document.querySelector("#hate-cyf").removeAttribute("style");
+    }
+}
+
 export default [
     keycheck_onion27,
     keycheck_benzyl_titanium,
@@ -219,4 +225,5 @@ export default [
     keycheck_mbti,
     keycheck_nvim_config,
     keycheck_plaudite,
+    keycheck_chenpi11,
 ];
