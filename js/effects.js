@@ -50,7 +50,13 @@ export const EFFECT_TABLE = {
          * @param {HTMLElement} node
          */
         start(node) {
-            node.innerText = "Tips: " + get_tip();
+            node.innerHTML = "";
+            node.appendChild(document.createTextNode("Tips: "));
+            const tip = get_tip().split("\n");
+            for (const seg of tip) {
+                node.appendChild(document.createTextNode(seg));
+                node.appendChild(document.createElement("br"));
+            }
             if (localStorage.getItem("tips") === "1") {
                 node.removeAttribute("style");
             }
