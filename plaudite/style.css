@@ -29,9 +29,5 @@ main {
 }
 h1 {
     font-size: 5em;
-    color: rgb(
-        round(calc(232 * (1.0 - var(--animation-progress))))
-        round(calc(232 * (1.0 - var(--animation-progress))))
-        round(calc(232 * (1.0 - var(--animation-progress))))
-    );
+    color: hsl(0, 0%, calc((1.0 - var(--animation-progress)) * 91%));
 }
